@@ -1154,6 +1154,67 @@ form .button-area {
   white-space: nowrap;
   overflow: hidden;
 }
+/* Existing CSS styles */
+.skills-section {
+  text-align: center;
+  background-color: #0c0f30;
+  padding: 40px;
+}
+
+.skills-section h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.skills-section .highlight {
+  color: #f4b000;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills-column {
+  width: 30%;
+  margin: 15px;
+  color: #fff;
+}
+
+.skills-column h3 {
+  font-size: 20px;
+  color: #53b3ff;
+  margin-bottom: 10px;
+}
+
+.skills-column p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Add this for mobile responsiveness */
+@media only screen and (max-width: 768px) {
+  .skills-column {
+    width: 100%; /* Stack columns vertically */
+    margin: 10px 0; /* Adjust margins */
+  }
+
+  .skills-section h2 {
+    font-size: 28px; /* Adjust heading size for mobile */
+  }
+
+  .skills-column h3 {
+    font-size: 18px; /* Slightly smaller font for mobile */
+  }
+
+  .skills-column p {
+    font-size: 14px; /* Smaller text for better readability on small screens */
+  }
+}
 
 
 
